@@ -1,0 +1,32 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1807
+
+It should be *easy* to tweak the colors, 
+just tweak the numbers based on this chart:
+
+http://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html
+or: 
+http://www.calmar.ws/vim/terminalcolors.py
+
+also see:
+:help hl-<highlight-group>  and 
+:help highlight-groups
+
+calmar256{light,dark}.vim generates the same color for you gvim, like in your 256 color terminal.
+
+Screenshot: 
+http://www.calmar.ws/vim/calmar256-dark.vim.png
+http://www.calmar.ws/vim/calmar256-light.vim.png
+
+(Note: you may need a proper $TERM variable set, so that termcap/terminfo
+knows it's a 256 color terminal. E.g. TERM=xterm-256color in xterm's case. but
+especially set t_Co=256 in your .vimrc so vim knows about what you want.)
+
+May also have a look at: 
+http://www.calmar.ws/vim/ (paragraph: Vim and Colors)
+
+The file themselves (very lastest version):
+
+http://www.calmar.ws/dotfiles/dotfiledir/calmar256-dark.vim
+http://www.calmar.ws/dotfiles/dotfiledir/calmar256-light.vim
+
+(feel free to upload improved versions etc, colors or code...)
